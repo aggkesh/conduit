@@ -1,0 +1,23 @@
+{
+  "name": "bloggerapi",
+  "version": "1.0.0",
+  "description": "Backend for blogger site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keshav Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "~1.9.0",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  }
+}
